@@ -1,0 +1,29 @@
+.slick-slide {
+    height:40vw;
+ }
+ 
+ .slick-slide img {
+    height:40vw;
+ }
+ .slick-initialized { overflow: hidden; }
+
+ .slick-dots{
+    display: flex!important;
+    bottom:0;
+    height: 30px;
+    position: absolute;
+    right:0;
+    justify-content: flex-end;
+    padding: 40px;
+ }
+ 
+ .slick-dots li button:before{
+    color: transparent;
+    font-size: 8px;
+    border: 1px solid white;
+    border-radius: 50%;
+ }
+
+ .slick-dots li.slick-active button:before{
+    color: white;
+ }
