@@ -25,8 +25,8 @@ export const CardColor = ({ photo, size, colors }: Props) => {
         size === "lg" ? "h-full w-[500px]" : "h-full w-[300px]"
       } relative`}
     >
-      <div className={`flex flex-row justify-end p-4 `} onClick={likedProduct}>
-        {like?<AiFillHeart style={{fill: 'red',color:'red'}} size={"20"} className={`transition-colors duration-700 cursor-pointer`}/>:<AiOutlineHeart color={"white"} size={20} className="cursor-pointer"/>}
+      <div className={`flex flex-row justify-end p-4 `} >
+        {like?<AiFillHeart style={{fill: 'red',color:'red'}} onClick={likedProduct} size={"20"} className={`transition-colors duration-700 cursor-pointer`}/>:<AiOutlineHeart onClick={likedProduct} color={"white"} size={20} className="cursor-pointer"/>}
         
       </div>
       <div className="absolute bottom-0 w-full bg-white">

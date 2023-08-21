@@ -14,7 +14,7 @@ const Home = (props: Props) => {
       <ClassicHero />
       <PopularGoods />
 
-      <div className="flex flex-row gap-12">
+      <div className="flex flex-row gap-12 px-12">
         <OnSale />
         <OnSale />
       </div>
